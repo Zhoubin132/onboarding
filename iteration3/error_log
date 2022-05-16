@@ -1,0 +1,520 @@
+[02-Apr-2022 06:59:05 UTC] PHP Fatal error:  Uncaught Error: Attempt to modify property "response" on bool in /home3/perinner/public_html/wp-content/plugins/mojo-marketplace-wp-plugin/vendor/bluehost/endurance-wp-plugin-updater/Updater.php:56
+Stack trace:
+#0 /home3/perinner/public_html/wp-includes/class-wp-hook.php(309): Endurance_WP_Plugin_Updater\Updater->Endurance_WP_Plugin_Updater\{closure}(false)
+#1 /home3/perinner/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters(false, Array)
+#2 /home3/perinner/public_html/wp-includes/option.php(1957): apply_filters('site_transient_...', false, 'update_plugins')
+#3 /home3/perinner/public_html/wp-includes/update.php(293): get_site_transient('update_plugins')
+#4 /home3/perinner/public_html/wp-admin/includes/class-wp-automatic-updater.php(465): wp_update_plugins()
+#5 /home3/perinner/public_html/wp-includes/update.php(729): WP_Automatic_Updater->run()
+#6 /home3/perinner/public_html/wp-includes/class-wp-hook.php(307): wp_maybe_auto_update('')
+#7 /home3/perinner/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 /home3/perinner/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#9 /home3/perinner/public_html/wp-includes/update.php(256): do_action('wp_maybe_auto_u...')
+#10 /home3/perinner/public_html/wp-includes/class-wp-hook.php(307): wp_version_check()
+#11 /home3/perinner/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#12 /home3/perinner/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#13 /home3/perinner/public_html/wp-cron.php(138): do_action_ref_array('wp_version_chec...', Array)
+#14 {main}
+  thrown in /home3/perinner/public_html/wp-content/plugins/mojo-marketplace-wp-plugin/vendor/bluehost/endurance-wp-plugin-updater/Updater.php on line 56
+[02-Apr-2022 07:00:31 UTC] PHP Fatal error:  Uncaught Error: Attempt to modify property "response" on bool in /home3/perinner/public_html/wp-content/plugins/mojo-marketplace-wp-plugin/vendor/bluehost/endurance-wp-plugin-updater/Updater.php:56
+Stack trace:
+#0 /home3/perinner/public_html/wp-includes/class-wp-hook.php(309): Endurance_WP_Plugin_Updater\Updater->Endurance_WP_Plugin_Updater\{closure}(false)
+#1 /home3/perinner/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters(false, Array)
+#2 /home3/perinner/public_html/wp-includes/option.php(1957): apply_filters('site_transient_...', false, 'update_plugins')
+#3 /home3/perinner/public_html/wp-includes/update.php(293): get_site_transient('update_plugins')
+#4 /home3/perinner/public_html/wp-includes/class-wp-hook.php(307): wp_update_plugins()
+#5 /home3/perinner/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#6 /home3/perinner/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#7 /home3/perinner/public_html/wp-cron.php(138): do_action_ref_array('wp_update_plugi...', Array)
+#8 {main}
+  thrown in /home3/perinner/public_html/wp-content/plugins/mojo-marketplace-wp-plugin/vendor/bluehost/endurance-wp-plugin-updater/Updater.php on line 56
+[02-Apr-2022 07:00:31 UTC] PHP Fatal error:  Uncaught Error: Attempt to modify property "response" on bool in /home3/perinner/public_html/wp-content/plugins/mojo-marketplace-wp-plugin/vendor/bluehost/endurance-wp-plugin-updater/Updater.php:56
+Stack trace:
+#0 /home3/perinner/public_html/wp-includes/class-wp-hook.php(309): Endurance_WP_Plugin_Updater\Updater->Endurance_WP_Plugin_Updater\{closure}(false)
+#1 /home3/perinner/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters(false, Array)
+#2 /home3/perinner/public_html/wp-includes/option.php(1957): apply_filters('site_transient_...', false, 'update_plugins')
+#3 /home3/perinner/public_html/wp-includes/update.php(780): get_site_transient('update_plugins')
+#4 /home3/perinner/public_html/wp-includes/admin-bar.php(1070): wp_get_update_data()
+#5 /home3/perinner/public_html/wp-includes/class-wp-hook.php(307): wp_admin_bar_updates_menu(Object(WP_Admin_Bar))
+#6 /home3/perinner/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 /home3/perinner/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#8 /home3/perinner/public_html/wp-includes/admin-bar.php(95): do_action_ref_array('admin_bar_menu', Array)
+#9 /home3/perinner/public_html/wp-includes/class-wp-hook.php(307): wp_admin_bar_render('')
+#10 /home3/perinner/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#11 /home3/perinner/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#12 /home3/perinner/public_html/wp-includes/general-template.php(3074): do_action('wp_body_open')
+#13 /home3/perinner/public_html/wp-includes/template-canvas.php(21): wp_body_open()
+#14 /home3/perinner/public_html/wp-includes/template-loader.php(106): include('/home3/perinner...')
+#15 /home3/perinner/public_html/wp-blog-header.php(19): require_once('/home3/perinner...')
+#16 /home3/perinner/public_html/index.php(17): require('/home3/perinner...')
+#17 {main}
+  thrown in /home3/perinner/public_html/wp-content/plugins/mojo-marketplace-wp-plugin/vendor/bluehost/endurance-wp-plugin-updater/Updater.php on line 56
+[02-Apr-2022 07:02:14 UTC] PHP Fatal error:  Uncaught Error: Attempt to modify property "response" on bool in /home3/perinner/public_html/wp-content/plugins/mojo-marketplace-wp-plugin/vendor/bluehost/endurance-wp-plugin-updater/Updater.php:56
+Stack trace:
+#0 /home3/perinner/public_html/wp-includes/class-wp-hook.php(309): Endurance_WP_Plugin_Updater\Updater->Endurance_WP_Plugin_Updater\{closure}(false)
+#1 /home3/perinner/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters(false, Array)
+#2 /home3/perinner/public_html/wp-includes/option.php(1957): apply_filters('site_transient_...', false, 'update_plugins')
+#3 /home3/perinner/public_html/wp-includes/update.php(780): get_site_transient('update_plugins')
+#4 /home3/perinner/public_html/wp-includes/admin-bar.php(1070): wp_get_update_data()
+#5 /home3/perinner/public_html/wp-includes/class-wp-hook.php(307): wp_admin_bar_updates_menu(Object(WP_Admin_Bar))
+#6 /home3/perinner/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 /home3/perinner/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#8 /home3/perinner/public_html/wp-includes/admin-bar.php(95): do_action_ref_array('admin_bar_menu', Array)
+#9 /home3/perinner/public_html/wp-includes/class-wp-hook.php(307): wp_admin_bar_render('')
+#10 /home3/perinner/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#11 /home3/perinner/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#12 /home3/perinner/public_html/wp-includes/general-template.php(3074): do_action('wp_body_open')
+#13 /home3/perinner/public_html/wp-includes/template-canvas.php(21): wp_body_open()
+#14 /home3/perinner/public_html/wp-includes/template-loader.php(106): include('/home3/perinner...')
+#15 /home3/perinner/public_html/wp-blog-header.php(19): require_once('/home3/perinner...')
+#16 /home3/perinner/public_html/index.php(17): require('/home3/perinner...')
+#17 {main}
+  thrown in /home3/perinner/public_html/wp-content/plugins/mojo-marketplace-wp-plugin/vendor/bluehost/endurance-wp-plugin-updater/Updater.php on line 56
+[02-Apr-2022 14:34:06 America/Chicago] PHP Warning:  Undefined array key "pass" in /home3/perinner/public_html/sapp-wp-signon.php on line 5
+[03-Apr-2022 01:56:15 UTC] PHP Fatal error:  Uncaught Error: Attempt to modify property "response" on bool in /home3/perinner/public_html/wp-content/plugins/mojo-marketplace-wp-plugin/vendor/bluehost/endurance-wp-plugin-updater/Updater.php:56
+Stack trace:
+#0 /home3/perinner/public_html/wp-includes/class-wp-hook.php(309): Endurance_WP_Plugin_Updater\Updater->Endurance_WP_Plugin_Updater\{closure}(false)
+#1 /home3/perinner/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters(false, Array)
+#2 /home3/perinner/public_html/wp-includes/option.php(1957): apply_filters('site_transient_...', false, 'update_plugins')
+#3 /home3/perinner/public_html/wp-includes/update.php(293): get_site_transient('update_plugins')
+#4 /home3/perinner/public_html/wp-admin/includes/class-wp-automatic-updater.php(465): wp_update_plugins()
+#5 /home3/perinner/public_html/wp-includes/update.php(729): WP_Automatic_Updater->run()
+#6 /home3/perinner/public_html/wp-includes/class-wp-hook.php(307): wp_maybe_auto_update('')
+#7 /home3/perinner/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 /home3/perinner/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#9 /home3/perinner/public_html/wp-includes/update.php(256): do_action('wp_maybe_auto_u...')
+#10 /home3/perinner/public_html/wp-includes/class-wp-hook.php(307): wp_version_check()
+#11 /home3/perinner/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#12 /home3/perinner/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#13 /home3/perinner/public_html/wp-cron.php(138): do_action_ref_array('wp_version_chec...', Array)
+#14 {main}
+  thrown in /home3/perinner/public_html/wp-content/plugins/mojo-marketplace-wp-plugin/vendor/bluehost/endurance-wp-plugin-updater/Updater.php on line 56
+[03-Apr-2022 02:44:10 UTC] PHP Fatal error:  Uncaught Error: Attempt to modify property "response" on bool in /home3/perinner/public_html/wp-content/plugins/mojo-marketplace-wp-plugin/vendor/bluehost/endurance-wp-plugin-updater/Updater.php:56
+Stack trace:
+#0 /home3/perinner/public_html/wp-includes/class-wp-hook.php(309): Endurance_WP_Plugin_Updater\Updater->Endurance_WP_Plugin_Updater\{closure}(false)
+#1 /home3/perinner/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters(false, Array)
+#2 /home3/perinner/public_html/wp-includes/option.php(1957): apply_filters('site_transient_...', false, 'update_plugins')
+#3 /home3/perinner/public_html/wp-includes/update.php(293): get_site_transient('update_plugins')
+#4 /home3/perinner/public_html/wp-includes/class-wp-hook.php(307): wp_update_plugins()
+#5 /home3/perinner/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#6 /home3/perinner/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#7 /home3/perinner/public_html/wp-cron.php(138): do_action_ref_array('wp_update_plugi...', Array)
+#8 {main}
+  thrown in /home3/perinner/public_html/wp-content/plugins/mojo-marketplace-wp-plugin/vendor/bluehost/endurance-wp-plugin-updater/Updater.php on line 56
+[03-Apr-2022 02:45:48 UTC] PHP Fatal error:  Uncaught Error: Attempt to modify property "response" on bool in /home3/perinner/public_html/wp-content/plugins/mojo-marketplace-wp-plugin/vendor/bluehost/endurance-wp-plugin-updater/Updater.php:56
+Stack trace:
+#0 /home3/perinner/public_html/wp-includes/class-wp-hook.php(309): Endurance_WP_Plugin_Updater\Updater->Endurance_WP_Plugin_Updater\{closure}(false)
+#1 /home3/perinner/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters(false, Array)
+#2 /home3/perinner/public_html/wp-includes/option.php(1957): apply_filters('site_transient_...', false, 'update_plugins')
+#3 /home3/perinner/public_html/wp-includes/update.php(780): get_site_transient('update_plugins')
+#4 /home3/perinner/public_html/wp-includes/admin-bar.php(1070): wp_get_update_data()
+#5 /home3/perinner/public_html/wp-includes/class-wp-hook.php(307): wp_admin_bar_updates_menu(Object(WP_Admin_Bar))
+#6 /home3/perinner/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 /home3/perinner/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#8 /home3/perinner/public_html/wp-includes/admin-bar.php(95): do_action_ref_array('admin_bar_menu', Array)
+#9 /home3/perinner/public_html/wp-includes/class-wp-hook.php(307): wp_admin_bar_render('')
+#10 /home3/perinner/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#11 /home3/perinner/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#12 /home3/perinner/public_html/wp-includes/general-template.php(3074): do_action('wp_body_open')
+#13 /home3/perinner/public_html/wp-includes/template-canvas.php(21): wp_body_open()
+#14 /home3/perinner/public_html/wp-includes/template-loader.php(106): include('/home3/perinner...')
+#15 /home3/perinner/public_html/wp-blog-header.php(19): require_once('/home3/perinner...')
+#16 /home3/perinner/public_html/index.php(17): require('/home3/perinner...')
+#17 {main}
+  thrown in /home3/perinner/public_html/wp-content/plugins/mojo-marketplace-wp-plugin/vendor/bluehost/endurance-wp-plugin-updater/Updater.php on line 56
+[03-Apr-2022 02:46:22 UTC] PHP Fatal error:  Uncaught Error: Attempt to modify property "response" on bool in /home3/perinner/public_html/wp-content/plugins/mojo-marketplace-wp-plugin/vendor/bluehost/endurance-wp-plugin-updater/Updater.php:56
+Stack trace:
+#0 /home3/perinner/public_html/wp-includes/class-wp-hook.php(309): Endurance_WP_Plugin_Updater\Updater->Endurance_WP_Plugin_Updater\{closure}(false)
+#1 /home3/perinner/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters(false, Array)
+#2 /home3/perinner/public_html/wp-includes/option.php(1957): apply_filters('site_transient_...', false, 'update_plugins')
+#3 /home3/perinner/public_html/wp-includes/update.php(780): get_site_transient('update_plugins')
+#4 /home3/perinner/public_html/wp-includes/admin-bar.php(1070): wp_get_update_data()
+#5 /home3/perinner/public_html/wp-includes/class-wp-hook.php(307): wp_admin_bar_updates_menu(Object(WP_Admin_Bar))
+#6 /home3/perinner/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 /home3/perinner/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#8 /home3/perinner/public_html/wp-includes/admin-bar.php(95): do_action_ref_array('admin_bar_menu', Array)
+#9 /home3/perinner/public_html/wp-includes/class-wp-hook.php(307): wp_admin_bar_render('')
+#10 /home3/perinner/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#11 /home3/perinner/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#12 /home3/perinner/public_html/wp-includes/general-template.php(3074): do_action('wp_body_open')
+#13 /home3/perinner/public_html/wp-includes/template-canvas.php(21): wp_body_open()
+#14 /home3/perinner/public_html/wp-includes/template-loader.php(106): include('/home3/perinner...')
+#15 /home3/perinner/public_html/wp-blog-header.php(19): require_once('/home3/perinner...')
+#16 /home3/perinner/public_html/index.php(17): require('/home3/perinner...')
+#17 {main}
+  thrown in /home3/perinner/public_html/wp-content/plugins/mojo-marketplace-wp-plugin/vendor/bluehost/endurance-wp-plugin-updater/Updater.php on line 56
+[09-Apr-2022 08:27:25 UTC] PHP Warning:  Undefined array key "chart_id" in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 156
+[09-Apr-2022 08:28:28 UTC] WordPress database error Query was empty for query 
+ made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, WP_REST_Autosaves_Controller->create_item, WP_REST_Autosaves_Controller->prepare_item_for_response, WP_REST_Revisions_Controller->prepare_item_for_response, apply_filters('the_content'), WP_Hook->apply_filters, do_blocks, render_block, WP_Block->render, guaven_gutenberg_wrapper, guaven_sqlcharts_local_shortcode
+[09-Apr-2022 08:28:28 UTC] WordPress database error Query was empty for query 
+ made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, WP_REST_Autosaves_Controller->create_item, WP_REST_Autosaves_Controller->prepare_item_for_response, WP_REST_Revisions_Controller->prepare_item_for_response, apply_filters('the_content'), WP_Hook->apply_filters, ezTOC::the_content, ezTOC::get, ezTOC_Post::get, ezTOC_Post->__construct, ezTOC_Post->applyContentFilter, apply_filters('the_content'), WP_Hook->apply_filters, do_blocks, render_block, WP_Block->render, guaven_gutenberg_wrapper, guaven_sqlcharts_local_shortcode
+[09-Apr-2022 08:29:28 UTC] WordPress database error Query was empty for query 
+ made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, WP_REST_Autosaves_Controller->create_item, WP_REST_Autosaves_Controller->prepare_item_for_response, WP_REST_Revisions_Controller->prepare_item_for_response, apply_filters('the_content'), WP_Hook->apply_filters, do_blocks, render_block, WP_Block->render, guaven_gutenberg_wrapper, guaven_sqlcharts_local_shortcode
+[09-Apr-2022 08:29:28 UTC] WordPress database error Query was empty for query 
+ made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, WP_REST_Autosaves_Controller->create_item, WP_REST_Autosaves_Controller->prepare_item_for_response, WP_REST_Revisions_Controller->prepare_item_for_response, apply_filters('the_content'), WP_Hook->apply_filters, ezTOC::the_content, ezTOC::get, ezTOC_Post::get, ezTOC_Post->__construct, ezTOC_Post->applyContentFilter, apply_filters('the_content'), WP_Hook->apply_filters, do_blocks, render_block, WP_Block->render, guaven_gutenberg_wrapper, guaven_sqlcharts_local_shortcode
+[10-Apr-2022 03:53:12 UTC] PHP Warning:  Undefined array key "chart_id" in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 156
+[30-Apr-2022 09:51:17 UTC] PHP Warning:  Undefined array key "chart_id" in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 156
+[30-Apr-2022 09:52:27 UTC] PHP Warning:  Undefined array key "chart_id" in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 156
+[30-Apr-2022 09:53:56 UTC] PHP Warning:  Undefined array key "chart_id" in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 156
+[30-Apr-2022 09:54:47 UTC] PHP Warning:  Undefined array key "chart_id" in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 156
+[30-Apr-2022 09:55:04 UTC] PHP Warning:  Undefined array key "chart_id" in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 156
+[30-Apr-2022 09:56:49 UTC] PHP Warning:  Undefined array key "chart_id" in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 156
+[30-Apr-2022 10:13:50 UTC] WordPress database error Deadlock found when trying to get lock; try restarting transaction for query DELETE FROM `wpr7_options` WHERE `option_name` = '_transient_epc_throttled' made by require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/mu-plugins/endurance-page-cache.php'), Endurance_Page_Cache->__construct, get_transient, delete_option
+[30-Apr-2022 10:13:50 UTC] WordPress database error Deadlock found when trying to get lock; try restarting transaction for query DELETE FROM `wpr7_options` WHERE `option_name` = '_transient_epc_throttled' made by require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/mu-plugins/endurance-page-cache.php'), Endurance_Page_Cache->__construct, get_transient, delete_option
+[30-Apr-2022 10:17:45 UTC] PHP Warning:  Undefined array key "chart_id" in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 156
+[30-Apr-2022 10:27:42 UTC] PHP Warning:  Undefined array key "chart_id" in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 156
+[30-Apr-2022 10:35:42 UTC] PHP Warning:  Undefined array key "chart_id" in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 156
+[30-Apr-2022 10:41:06 UTC] PHP Warning:  Undefined array key "chart_id" in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 156
+[15-May-2022 13:03:52 UTC] PHP Warning:  Undefined array key "chart_id" in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 156
+[15-May-2022 13:10:24 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:10:24 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:10:24 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:10:24 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:10:24 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:10:24 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:10:24 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:10:24 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:10:36 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:10:36 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:10:36 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:10:36 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:10:36 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:10:36 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:10:36 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:10:36 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:10:36 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:10:36 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:10:36 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:10:36 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:10:36 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:10:36 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:10:36 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:10:36 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:10:37 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:10:37 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:10:37 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:10:37 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:10:37 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:10:37 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:10:37 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:10:37 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:29 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:29 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:29 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:29 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:29 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:29 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:29 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:29 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:35 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:35 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:35 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:35 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:35 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:35 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:35 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:35 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:35 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:35 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:35 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:35 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:35 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:35 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:35 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:35 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:51 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:51 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:51 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:51 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:51 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:51 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:51 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:51 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:19:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:15 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:15 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:15 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:15 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:15 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:15 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:15 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:15 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:16 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:16 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:16 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:16 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:16 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:16 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:16 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:16 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:16 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:16 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:16 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:16 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:16 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:16 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:16 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:16 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:29 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:29 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:29 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:29 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:29 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:29 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:29 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:29 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:30 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:30 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:30 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:30 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:30 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:30 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:30 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:30 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:30 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:30 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:30 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:30 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:30 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:30 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:30 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:30 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:34 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:34 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:34 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:34 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:34 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:34 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:34 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:34 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:34 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:34 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:34 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:34 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:34 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:34 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:34 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:34 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:34 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:34 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:34 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:34 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:34 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:34 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:34 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:34 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:34 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:34 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:34 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:34 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:34 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:34 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:34 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:34 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:41 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:41 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:41 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:41 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:41 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:41 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:41 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:41 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:41 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:41 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:41 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:41 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:41 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:41 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:41 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:41 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:48 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:48 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:48 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:48 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:48 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:48 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:48 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:48 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:48 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:48 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:48 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:48 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:48 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:48 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:48 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:48 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:57 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:57 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:57 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:57 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:57 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:57 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:57 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:57 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:57 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:57 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:57 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:57 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:57 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:57 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:57 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:20:57 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:21:42 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:21:42 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:21:42 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:21:42 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:21:42 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:21:42 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:21:42 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:21:42 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:21:42 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:21:42 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:21:42 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:21:42 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:21:42 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:21:42 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:21:42 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:21:42 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:21:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:21:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:21:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:21:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:21:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:21:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:21:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:21:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:21:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:21:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:21:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:21:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:21:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:21:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:21:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:21:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:23:57 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:23:57 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:23:57 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:23:57 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:23:57 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:23:57 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:23:57 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:23:57 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:23:57 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:23:57 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:23:57 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:23:57 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:23:57 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:23:57 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:23:57 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:23:57 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:25:08 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:25:08 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:25:08 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:25:08 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:25:08 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:25:08 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:25:08 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:25:08 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:25:08 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:25:08 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:25:08 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:25:08 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:25:08 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:25:08 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:25:08 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:25:08 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:26:11 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:26:11 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:26:11 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:26:11 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:26:11 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:26:11 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:26:11 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:26:11 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:26:11 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:26:11 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:26:11 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:26:11 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:26:11 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:26:11 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:26:11 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:26:11 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:26:19 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:26:19 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:26:19 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:26:19 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:26:19 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:26:19 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:26:19 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:26:19 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:26:19 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:26:19 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:26:19 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:26:19 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:26:19 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:26:19 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:26:19 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:26:19 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:32 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:32 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:32 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:32 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:32 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:32 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:32 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:32 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:32 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:32 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:32 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:32 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:32 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:32 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:32 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:32 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:36 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:36 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:36 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:36 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:36 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:36 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:36 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:36 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:36 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:36 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:36 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:36 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:36 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:36 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:36 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:36 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
+[15-May-2022 13:45:52 UTC] PHP Warning:  Undefined property: stdClass::$year_number in /home3/perinner/public_html/wp-content/plugins/sql-chart-builder/functions.php on line 294
